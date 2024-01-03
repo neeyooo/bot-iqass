@@ -8,7 +8,7 @@ Event tahunan dimana sebelum UTS/UAS diminta mengisi survei iqass. Dari sinilah 
 4. Internet Connection
 
 ### How to run
-1. Clone repo ini atau download dari .zip dari [releases](https://github.com/neeyooo/bot-iqass/releases/). Unzip setelah selesai di unduh.
+1. Clone repo ini atau download .zip dari [releases](https://github.com/neeyooo/bot-iqass/releases/). Unzip setelah selesai di unduh.
 2. Buka file `firstRun.bat`. Tunggu sampai selesai. Klik enter untuk keluar.
 3. Buka file `run.bat`.
 4. Masukkan Email/NIM dan Password/PIC.
