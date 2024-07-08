@@ -129,7 +129,7 @@ async function main() {
             document.getElementById(randomId).click();
             await delay(50)
         }
-        console.log("Selesai mengerjakan soal ke " + maxX)
+        console.log("Selesai mengerjakan soal ke " + i)
         await clickElementByXPath('//*[@id="submit"]');
         await delay(100)
     }
