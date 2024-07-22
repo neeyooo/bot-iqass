@@ -167,9 +167,10 @@ async function main() {
         await clickElementByXPath('//*[@id="submit" and @type="submit"]');
         await delay(50);
     }
-    console.log("Selesai mengerjakan survei kepuasan");
+    console.log("Selesai mengerjakan survei kepuasan\n\n");
 
     // Mengerjakan survei dosen
+    console.log("Mengerjakan survei dosen")
     maxXPathTemplate = '//*[@id="__show_instrumen"]/div[5]/div[${X}]/div/div';
     maxX = findMaxX(maxXPathTemplate);
     console.log(`Jumlah Soal: ${maxX}`);
@@ -183,7 +184,7 @@ async function main() {
 
         // Mengklik elemen utama
         await clickElementByXPath(xpath);
-        await delay(200);
+        await delay(500);
 
         // Mendapatkan teks dari elemen card-text
         var cardTextXPath = '//*[@id="post_survei"]/div[${X}]/div';
@@ -206,7 +207,7 @@ async function main() {
             } catch (error) {
 
             }
-            await delay(30);
+            await delay(50);
         }
         console.log("Selesai mengerjakan soal ke " + i);
 
