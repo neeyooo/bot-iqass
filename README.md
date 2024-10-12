@@ -5,6 +5,7 @@ Event tahunan dimana sebelum UTS/UAS dan sebelum krs diminta mengisi survei iqas
 ### Requirements
 1. Browser
 2. Internet Connection
+3. Mahasiswa/i UMM :p
 
 ### How to run
 1. Penuhi persyaratan diatas. 
@@ -20,5 +21,5 @@ Event tahunan dimana sebelum UTS/UAS dan sebelum krs diminta mengisi survei iqas
 ***
 
 ### Notes
-- Testing menggunakan Windows 10 22H2. Google Chrome
+- Testing menggunakan Windows 10 22H2. Google Chrome ver126.0
 - Belum dicoba di Linux
